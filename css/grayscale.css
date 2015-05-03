@@ -147,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/socks.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -261,11 +261,26 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.practice-section {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/practice-bg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.team-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/melee) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -279,12 +294,28 @@ a:focus {
     margin-top: 100px;
 }
 
+img {
+  vertical-align: middle;
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
     }
 
-    .download-section {
+    .team-section {
         padding: 100px 0;
     }
 
