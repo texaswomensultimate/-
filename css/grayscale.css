@@ -478,8 +478,8 @@ a:focus {
 
 .team-section {
     width: 100%;
-    height: inherit;
-    padding: 100px 0;
+    height: auto;
+    padding: 25px 0;
     color: #fff;
     background: url(../img/melee4.jpg) no-repeat scroll;
     background-color: #000;
