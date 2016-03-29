@@ -265,10 +265,10 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 50px;
     text-align: center;
     color: #fff;
-    background: url(../img/practice-bg) no-repeat bottom center scroll;
+    background: url(../img/practice-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
