@@ -481,7 +481,7 @@ a:focus {
     height: 100%;
     padding: 175px 0;
     color: #fff;
-    background: url(../img/melee3.jpg) no-repeat center scroll;
+    background: url(../img/melee3.jpg) no-repeat top center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
